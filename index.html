@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Fernando</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="shortcut icon" href="Imagens/Elegantthemes-Beautiful-Flat-Dev.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container"> <!-- Inicio do container -->
+        <header class="flex"> <!-- Inicio do Cabeçalho -->
+            <div class="logo">Daniel<span>.</span></div>
+            <nav>
+                <ul class="flex">
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Portifolios</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+                <div id="search" class="flex">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" name="" id="" placeholder="Buscar">
+                </div>
+            </nav>
+        </header> <!-- Fim do cabeçalho -->
+
+        <div class="main flex"> <!-- Inicio do Main-->
+            <div class="main-one">
+                <h1>Olá, eu sou</h1>
+                <span class="auto">Daniel Fernando</span>
+                <p>
+                    Meu nome e Daniel Fernando dos Santos, Atualmente estou estudando desenvolvimento-Web onde quero me aprofundar mais a cada dia nesta area onde eu sou tão apaixonado, neste site você podera encontrar alguns dos meus projetos e descobrir um pouco mais sobre a minha pessoa.
+                </p>
+                <button><a href="https://github.com/daniiel-fernando" target="_blank">Click Aqui</a></button>
+            </div>
+            <div class="main-two">
+                <img class="perfil" src="Imagens/Perfil.png" alt="">
+            </div>
+        </div> <!-- Fim do main -->
+
+        <section id="project" class="projects">
+            <h1>Faça o download do meu<br><span>Curriculo</span></h1>
+            <p>
+                Neste PDF você irar encontrar o meu curriculo completo com toda minha carrerira profissional e estudantil
+            </p>
+            <button class="button"><a href="pdf/Curriculo.pdf" download="Curriculo">Baixe!</a></button>
+            <div class="projects-div flex div-1"> <!-- Projetos 1 -->
+                <img src="Imagens/5.png" alt="">
+                <h3>Biblioteca Virtual</h3>
+                <p>
+                    Projeto de uma Biblioteca virtual
+                </p>
+                <button><a href="https://daniiel-fernando.github.io/Biblioteca-virtual/" target="_blank">Visualizar</a></button>
+            </div> <!-- Fim do Projeto 1 -->
+            <div class="projects-div flex div-2"> <!-- Projeto 2 -->
+                <img src="Imagens/6.png" alt="">
+                <h3>Calculadora-Dark</h3>
+                <p>
+                    Calculadora com Modo Noturno
+                </p>
+                <button><a href="https://daniiel-fernando.github.io/Calculadora/" target="_blank">Visualizar</a></button> <!-- Fim do projeto 2 -->
+            </div>
+            <div class="projects-div flex div-3"> <!-- Inicio Projeto 3 -->
+                <img src="Imagens/7.png" alt="">
+                <h3>Projeto Museu Nacional</h3>
+                <p>
+                    Projeto do Museu nacional que fiz durante o curso de desenvolvimento-Web
+                </p>
+                <button><a href="https://daniiel-fernando.github.io/Museu-Nacional/" target="_blank">Visualizar</a></button>
+            </div>
+        </section>
+        <br> <br>
+
+        <section class="contact" id="contact">
+            <h1>Deixe Nos <span>Conversar!</span></h1>
+            <div class="box flex">
+              <div>
+                <i class="fa-solid fa-user"></i>
+                <input type="text" placeholder="Name.." />
+              </div>
+              <div>
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="Email.." />
+              </div>
+              <textarea
+                name=""
+                id=""
+                cols="60"
+                rows="5"
+                placeholder="Digite Sua Mensagem aqui...."
+              ></textarea>
+              <div>
+                <input type="submit" class="send" value="Enviar" />
+              </div>
+            </div>
+          </section>
+          <footer class="flex" id="footer">
+            <div class="copy">@copywrite Daniel Fernando</div>
+            <div class="social">
+              <i class="fa-brands fa-instagram"><a href="https://www.instagram.com/dan_hoo/" target="_blank"></a></i>
+              <i class="fa-brands fa-facebook"> <a href="https://www.facebook.com/profile.php?id=100009549612452" target="_blank"></a></i>
+              <i class="fa-brands fa-whatsapp"></i>
+              <i class="fa-solid fa-phone"></i>
+            </div>
+          </footer>
+        </div>
+    
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+          var typed = new Typed(".auto", {
+            strings: ["Daniel Fernando", "Web Developer", ":D"],
+            typeSpeed: 60,
+            backSpeed: 70,
+            loop: true,
+          });
+        </script>
+</body>
+</html>
