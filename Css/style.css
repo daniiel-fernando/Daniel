@@ -30,6 +30,8 @@ header .logo{
     margin-left: 100px;
 }
 .logo span{
+    text-shadow: red -2px 0,
+                 cyan -2px 0;
     color: #FFDE59;
     font-size: 70px;
 }
